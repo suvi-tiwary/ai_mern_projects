@@ -1,20 +1,56 @@
-<<<<<<< HEAD
-# React + Vite
+# 🚀 Leaderboard Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern dark-themed leaderboard application built using React + Vite.
 
-Currently, two official plugins are available:
+This project allows:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🏆 Real-time leaderboard ranking
+- 🔐 Admin panel to update student points
+- 💾 Persistent data using localStorage
+- 🎨 Custom dark grid UI with animated styling
+- 🔗 GitHub & LinkedIn profile links for users
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Tech Stack
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- Tailwind CSS
+- React Router
+- LocalStorage (for persistence)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# ai_mern_projects
->>>>>>> a7f5e2f5cdbc55dc1953a89ebd1740f0242665cb
+---
+
+## 📌 Features
+
+### 👤 User Page (`/`)
+- Displays leaderboard
+- Auto-calculated rank system
+- Sorted by highest points
+- Styled dark theme with glowing effects
+
+### 🔑 Admin Page (`/admin2026`)
+- Add points to specific students
+- Rank updates automatically
+- Data stored in browser storage
+- Clean admin UI
+
+---
+
+## 🧠 Ranking Logic
+
+Students are:
+1. Sorted by points (descending)
+2. Rank calculated dynamically
+3. Same points = same rank logic handled
+
+---
+
+## 🖥 Installation & Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/suvi-tiwary/ai_mern_projects.git
+cd user
